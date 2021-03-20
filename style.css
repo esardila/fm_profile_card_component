@@ -1,0 +1,118 @@
+/* BASE */
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+    color: hsl(229, 23%, 23%);
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    align-items: center;
+    background: hsl(185, 75%, 39%);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+/* PROFILE CARD */
+
+.profile-card {
+    background: #ffffff;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    width: 400px;
+}
+
+.card-header {
+    background-image: url('./images/bg-pattern-card.svg');
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+    height: 150px;
+}
+
+.card-body {
+    padding-bottom: 30px;
+}
+
+.pic {
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 115px;
+    margin: -60px auto 30px;
+    overflow: hidden;
+    padding: 0;
+    width: 115px;
+}
+
+.pic img {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.name {
+    margin-bottom: 0.5rem;
+}
+
+.age {
+    margin-left: 1.2rem;
+    font-weight: 400;
+}
+
+.age,
+.city {
+    color: hsl(227, 10%, 46%);
+}
+
+/* BACKGROUND CIRCLES */
+.circles #circle1,
+.circles #circle2 {
+    position: absolute;
+}
+
+#circle1 {
+    top: -50%;
+    right: 50%;
+}
+
+#circle2 {
+    bottom: -50%;
+    left: 50%;
+}
+
+
+/* FOOTER */
+
+.card-footer {
+    border-top: 1px solid hsla(227, 10%, 46%, 0.5);
+    padding: 30px 0;
+}
+
+
+.item {
+    color: hsl(227, 10%, 46%);
+    display: inline-block;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+    margin: 0 20px;
+}
+
+.item span {
+    display: block;
+    font-size: 2em !important;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
