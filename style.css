@@ -19,7 +19,7 @@ body {
     background-color: var(--clr-primary-dark-cyan);
     background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
-    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+    background-position: right 50vw bottom 40vh, left 50vw top 50vh;
     color: var(--clr-primary-dark-desaturated-blue);
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
@@ -80,7 +80,7 @@ body {
 }
 
 .name {
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-bottom: 10px;
 }
 
@@ -94,13 +94,13 @@ body {
 }
 
 .city {
-    font-size: 1em;
+    font-size: .9em;
 }
 
 
 /* FOOTER */
 .card-footer {
-    border-top: 1px solid var(--clr-neutral-dark-gray);
+    border-top: 1px solid hsl(0, 0%, 59%, 0.25);
     display: flex;
     justify-content: space-around;
     padding: 1.2rem;
@@ -113,7 +113,7 @@ body {
 .stat span {
     color: var(--clr-neutral-dark-gray);
     display: block;
-    font-size: 0.5em;
+    font-size: 0.6em;
     font-weight: 400;
     letter-spacing: 0.2em;
     margin-top: 0.5rem;
