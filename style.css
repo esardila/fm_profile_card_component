@@ -23,6 +23,12 @@ body {
     color: var(--clr-primary-dark-desaturated-blue);
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
 }
 
 
@@ -39,7 +45,10 @@ body {
     background: white;
     border-radius: 1em;
     box-shadow: 0 15px 30px hsl(229, 23%, 23%, 0.25);
+    margin-top: 3rem;
     max-width: 325px;
+    min-height: 350px;
+    min-width: 320px;
     overflow: hidden;
     text-align: center;
     width: 100%;
@@ -121,16 +130,13 @@ body {
 
 /* ATTRIBUTION */
 .attribution {
-    background: white;
-    bottom: 0;
-    font-size: 11px;
-    height: 2em;
-    line-height: 2em;
-    position: absolute;
+    font-size: 12px;
+    line-height: 1rem;
+    margin: 3rem 0 1rem;
     text-align: center;
-    width: 100%;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
 }
